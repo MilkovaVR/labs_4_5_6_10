@@ -18,7 +18,6 @@ Ticket::Ticket(QString from, QString to, QString dateTime, QString seat,
     this->vipLounge = vipLounge;
 }
 
-// Сохранение в файл
 bool Ticket::saveToFile(const QString& filename)
 {
 
